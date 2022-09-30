@@ -1,0 +1,22 @@
+.table__container {
+    overflow: auto;
+    width: 100%
+}
+
+.table__container::-webkit-scrollbar {
+    height:12px;    
+}
+
+.table__container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.table__container::-webkit-scrollbar-thumb {
+    background: #475a97;
+    border-radius:10px;
+    border: 3px #182746 solid;
+}
+
+.table__container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
